@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ES_Topcatalog>
+            <version>0.1.0</version>
+        </ES_Topcatalog>
+    </modules>
+
+    <frontend>
+        <routers>
+            <topcatalog>
+                <use>standard</use>
+                <args>
+                    <module>ES_Topcatalog</module>
+                    <frontName>topcatalog</frontName>
+                </args>
+            </topcatalog>
+        </routers>
+        <layout>
+            <updates>
+                <topcatalog>
+                    <file>topcatalog.xml</file>
+                </topcatalog>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <topcatalog>
+                <class>ES_Topcatalog_Block</class>
+            </topcatalog>
+        </blocks>
+
+        <helpers>
+            <topcatalog>
+                <class>ES_Topcatalog_Helper</class>
+            </topcatalog>
+        </helpers>
+
+        <models>
+            <catalog>
+                <rewrite>
+                    <observer>ES_Topcatalog_Model_Observer</observer>
+                </rewrite>
+            </catalog>
+        </models>
+
+    </global>
+</config>

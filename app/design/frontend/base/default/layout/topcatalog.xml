@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+
+        <reference name="header">
+            <block type="topcatalog/topcatalog" name="header.topMenu" as="topMenu" template="topcatalog/topcatalog.phtml" ></block>
+        </reference>
+
+
+
+
+
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/style-topcatalog.css</name><params/></action>
+            <action method="addJs"><script>topcatalog/jquery_1_4_2_min.js</script></action>
+            <action method="addJs"><script>topcatalog/script.js</script></action>
+        </reference>
+
+    </default>
+</layout>

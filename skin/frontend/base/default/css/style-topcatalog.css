@@ -1,0 +1,189 @@
+#nav {
+	position: relative;
+    font-size: 13px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 918px;
+    height: auto;
+}
+#nav li {
+    padding: 0;
+    margin: 0;
+    float:left;
+    word-wrap:break-word;
+    width: auto;
+    color: #555557;
+    border: 0;
+    position: static;
+
+
+}
+
+#nav li a{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    width: auto;
+    padding: 5px 12px 6px 8px;
+}
+#nav li.last a{
+    background: none;
+}
+
+#nav li a:hover,
+#nav li.selected  a,
+#nav li.active a  {
+    background: #ffffff;
+}
+
+#nav .menu.children3 {
+    background: #ffffff;
+    border-top: 2px solid #dc4c04;
+}
+
+/*SUB level */
+#nav li ul {
+    text-align: left;
+    position: absolute;
+    display: block;
+    background: #ffffff;
+    height: auto;
+    top: 29px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: normal;
+    padding: 29px 0 34px 0;
+    background:  #ffffff;
+    -webkit-box-shadow: 1px 4px 4px rgba(50, 50, 50, 0.47);
+    -moz-box-shadow:    1px 4px 4px rgba(50, 50, 50, 0.47);
+    box-shadow:         1px 4px 4px rgba(50, 50, 50, 0.47);
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top: 0;
+    z-index: 999;
+}
+#nav li ul a {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+#nav li ul a:hover{
+    color: #555557;
+    text-decoration: underline;
+}
+
+#nav li ul.level0 {
+    display: none;
+}
+
+#nav li ul ul {
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-radius: 0px;
+}
+#nav li ul.level0 li{
+    line-height: normal;
+    padding: 0;
+    margin: 0 20px 10px 0;
+    float: left;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    line-height: normal;
+    background: none;
+}
+#nav .nav-left.tc-img li {
+    width: 30%;
+}
+#nav .nav-left.tc-without-img li {
+    width: 22%;
+}
+
+#nav .nav-left.tc-img li ul li,
+#nav .nav-left.tc-without-img li ul li{
+    width: 100%;
+}
+
+#nav li ul.level0 li a{
+    display: inline;
+    background: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #555557;
+
+}
+#nav li ul.level0 li a span{
+    font-weight: bold;
+}
+#nav li ul.level0 li a:hover {
+    background: none;
+}
+/*SUB level */
+#nav li ul.level0 li ul.level1 {
+    border: 0;
+    height: auto;
+    position: relative;
+    width: auto;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+#nav li ul.level0 li ul.level1 li {
+    clear: both;
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+#nav li ul.level0 li ul.level1 li a span{
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: normal;
+
+}
+
+#nav ul.nav-left, #nav ul.nav-right {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    border: 0;
+    top: 0;
+}
+#nav ul.nav-left {
+    float: left;
+    margin: 0 0 0 20px;
+}
+#nav ul.nav-left.tc-img {
+    width: 71%;
+}
+
+#nav ul.nav-left.tc-without-img {
+    width: 100%;
+}
+
+#nav ul.nav-right {
+    width: 25%;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+#nav ul.nav-right img {
+    margin:  0 0 5px 0;
+}
+#nav ul.nav-right span {
+    text-align: justify;
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ES_Topcatalog</name>
+    <version>1.2.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Exploded catalog navigation</summary>
+    <description>Exploded catalog navigation</description>
+    <notes>Stable</notes>
+    <authors><author><name>Edvinas Stulpinas</name><user>edas1</user><email>st.edvinas@gmail.com</email></author></authors>
+    <date>2013-02-10</date>
+    <time>14:25:39</time>
+    <contents><target name="magecommunity"><dir name="ES"><dir name="Topcatalog"><dir name="Block"><file name="Topcatalog.php" hash="a118e7ea3fe34b1567deef8e23f029fd"/></dir><dir name="Helper"><file name="Data.php" hash="9eabbbe2deb697d51b1fc2003aa7294e"/></dir><dir name="Model"><file name="Observer.php" hash="de7ffb2fb715d592ad299b39eb3560bf"/></dir><dir name="etc"><file name="config.xml" hash="706844146a659771dfb1172ca30b0c03"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ES_Topcatalog.xml" hash="746712d2ad007b7653779862f58876f0"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="topcatalog.xml" hash="e2d2e4b98ede8f822b5f62c91bbe3815"/></dir><dir name="template"><dir name="topcatalog"><file name="topcatalog.phtml" hash="4fe44ca4a63f2017d345e9415f129555"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="style-topcatalog.css" hash="509b7a09d8264c7d5c61705d90cde413"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="topcatalog"><file name="jquery_1_4_2_min.js" hash="1e5389d096ff70677a5055d98c19691b"/><file name="script.js" hash="da64239b0caa49edfbd9567c5a698811"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
